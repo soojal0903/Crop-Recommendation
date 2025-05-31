@@ -43,6 +43,7 @@ def weather_fetch(city_name):
         humidity = y["humidity"]
         return temperature, humidity
     else:
+        print("fetched weather")
         return None
 
 
